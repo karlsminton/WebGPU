@@ -16,6 +16,10 @@ app.get('/', (req: any, res: any) => {
     res.sendFile(path.resolve('./dist/index.html'));
 });
 
+app.get('/dist/index.js', (req: any, res: any) => {
+    res.sendFile(path.resolve('./dist/index.js'));
+});
+
 server.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
