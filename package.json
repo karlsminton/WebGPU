@@ -2,6 +2,7 @@
   "name": "webgpu",
   "version": "1.0.0",
   "scripts": {
+    "start": "node ./server.js",
     "build-client": "webpack --config-name=\"client\" --mode=\"production\"",
     "build-server": "webpack --config-name=\"server\" --mode=\"development\""
   },

@@ -1,4 +1,5 @@
 server.js
 /dist
 /**/node_modules
+/**/*.pem
 **.LICENSE.txt
